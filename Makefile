@@ -3,7 +3,7 @@
 #
 
 TOPSRCDIR = .
-include $(TOPSRCDIR)/make.inc
+include $(TOPSRCDIR)/sifive-make.inc
 
 .PHONY: all
 #all: lapack_install lib blas_testing lapack_testing
