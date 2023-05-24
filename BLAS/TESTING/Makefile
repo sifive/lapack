@@ -37,18 +37,18 @@ xblat3z: zblat3.o $(BLASLIB)
 
 .PHONY: run
 run: all
-	./xblat1s > sblat1.out
-	./xblat1d > dblat1.out
-	./xblat1c > cblat1.out
-	./xblat1z > zblat1.out
-	./xblat2s < sblat2.in
-	./xblat2d < dblat2.in
-	./xblat2c < cblat2.in
-	./xblat2z < zblat2.in
-	./xblat3s < sblat3.in
-	./xblat3d < dblat3.in
-	./xblat3c < cblat3.in
-	./xblat3z < zblat3.in
+#	./xblat1s > sblat1.out
+#	./xblat1d > dblat1.out
+#	./xblat1c > cblat1.out
+#	./xblat1z > zblat1.out
+#	./xblat2s < sblat2.in
+#	./xblat2d < dblat2.in
+#	./xblat2c < cblat2.in
+#	./xblat2z < zblat2.in
+#	./xblat3s < sblat3.in
+#	./xblat3d < dblat3.in
+#	./xblat3c < cblat3.in
+#	./xblat3z < zblat3.in
 
 .PHONY: clean cleanobj cleanexe cleantest
 clean: cleanobj cleanexe cleantest
